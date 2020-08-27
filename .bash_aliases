@@ -1,3 +1,7 @@
+# list
+alias llg='filter_list.sh --full'
+alias lg='filter_list.sh'
+
 # Git
 alias gitl='git log --oneline --graph'
 alias gits='git status'
