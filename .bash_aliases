@@ -1,7 +1,9 @@
 # list
 alias llg='filter_list.sh --full'
 alias lg='filter_list.sh'
-
+# cd
+alias cdhome='cd ~'
+alias cdDownloads='cd ~/Downloads'
 # Git
 alias gitl='git log --oneline --graph'
 alias gits='git status'
