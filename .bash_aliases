@@ -33,12 +33,12 @@ alias please_php_run='php -r'
 alias please_php_run_interactively='php -a'
 alias please_php_show_modules='php -m'
 alias please_php_show_ini_files='php --ini'
-## php quality analysis
+# php quality analysis
 alias please_run_phpstan_analyse='phpqa phpstan analyse'
 alias please_run_infection='phpqa infection'
-## php cs fixer
+# php cs fixer
 alias please_run_phpcsfixer='php php-cs-fixer.phar fix --config "./.php_cs.dist"'
-## symfony
+# symfony
 alias pbc='php bin/console'
 alias please_symfony_console='php bin/console'
 # Go to directory
@@ -47,12 +47,12 @@ alias cddraft='cd ~/moi/.draft'
 # Test
 alias test_browser='firefox http://2cloud.local/test.php &'
 # Please
-## .bashrc
+# .bashrc
 alias please_source='source ~/.bashrc'
 alias please_edit_bashrc='vim ~/.bashrc'
 alias please_edit_bash_aliases='vim ~/.bash_aliases'
 alias please_show_aliases='alias -p | sort'
-## linux
+# linux
 alias please_linux_create_link_to_command='create_link_to_command.sh'
 alias please_linux_chmod_x_recursive='chmod -R +x'
 alias please_linux_chmod_x_recursive_here='chmod -R +x .'
@@ -75,11 +75,11 @@ alias please_linux_how_to_list_disks='echo -e "df" && echo -e "\e[34mor\e[0m" &&
 alias please_linux_fix_error_debconf_config_locked='echo -e "Will fix \e[34mdebconf: DbDriver "config": /var/cache/debconf/config.dat is locked by another process: Resource temporarily unavailable\e[0m\n"; sudo fuser -vik /var/cache/debconf/config.dat'
 # Bash
 alias please_bash_how_to_format_text='how_to_format_text.sh'
-## vscode
+# vscode
 alias please_code_moi='code ~/moi'
-## php
+# php
 alias please_php_start_web_server='php -S localhost:8000 -t public'
-## docker
+# docker
 alias please_docker_clean='docker system prune'
 alias please_docker_login='docker login'
 alias please_docker_exec='docker_exec.sh'
@@ -96,9 +96,9 @@ alias please_docker_how_to_run_container_with_specific_port="echo -e \"docker ru
 alias please_docker_how_to_run_container_in_background="echo -e \"docker run -d --name \e[33mcontainerName imageName\e[0m\""
 alias please_docker_how_to_remove_container="echo -e \"docker rm --force \e[33mcontainerName\e[0m\""
 alias please_docker_how_to_build_image="echo -e \"docker build -t \e[33mnomImage\e[0m -f \e[33mnomFichierDockerfileSouhaité cheminVersLeDossierContenantLeDockerfile\e[0m\""
-## Google Cloud Platform (GCP)
+# Google Cloud Platform (GCP)
 alias please_login_google_cloud_platform='gcloud auth login'
-## jekyll static website generator
+# jekyll static website generator
 alias please_jekyll_install='bundle install'
 alias please_jekyll_serve='bundle exec jekyll serve'
 alias please_jekyll_serve_live_reload='bundle exec jekyll serve --livereload'
@@ -113,3 +113,5 @@ alias please_what_is_the_current_week_number='echo "Using bash: " && date +%W &&
 alias please_what_time_is_it='date'
 alias please_what_is_this_timestamp='read_timestamp.php'
 alias please_what_is_this_date_timestamp='write_timestamp.php'
+# firefox
+alias please_firefox_dev='/home/nicolas/firefox_developer/firefox &'
