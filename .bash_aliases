@@ -33,6 +33,7 @@ alias please_php_run='php -r'
 alias please_php_run_interactively='php -a'
 alias please_php_show_modules='php -m'
 alias please_php_show_ini_files='php --ini'
+alias please_php_start_web_server='php -S localhost:8000 -t public'
 # php quality analysis
 alias please_run_phpstan_analyse='phpqa phpstan analyse'
 alias please_run_infection='phpqa infection'
@@ -77,8 +78,6 @@ alias please_linux_fix_error_debconf_config_locked='echo -e "Will fix \e[34mdebc
 alias please_bash_how_to_format_text='how_to_format_text.sh'
 # vscode
 alias please_code_moi='code ~/moi'
-# php
-alias please_php_start_web_server='php -S localhost:8000 -t public'
 # docker
 alias please_docker_clean='docker system prune'
 alias please_docker_login='docker login'
@@ -114,4 +113,4 @@ alias please_what_time_is_it='date'
 alias please_what_is_this_timestamp='read_timestamp.php'
 alias please_what_is_this_date_timestamp='write_timestamp.php'
 # firefox
-alias please_firefox_dev='/home/nicolas/firefox_developer/firefox &'
+alias firefox_dev='/home/nicolas/firefox_developer/firefox &'
